@@ -10,6 +10,7 @@
       <TargetName>Target 1</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
+      <pCCUsed>5060750::V5.06 update 6 (build 750)::ARMCC</pCCUsed>
       <uAC6>0</uAC6>
       <TargetOption>
         <TargetCommonOption>
@@ -601,9 +602,14 @@
               <FilePath>.\pl\src\stm32f4xx_wwdg.c</FilePath>
             </File>
             <File>
-              <FileName>system_stm32f4xx.h</FileName>
+              <FileName>stm32f4xx.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\pl\system_stm32f4xx.h</FilePath>
+              <FilePath>.\pl\stm32f4xx.h</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_conf.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\pl\stm32f4xx_conf.h</FilePath>
             </File>
           </Files>
         </Group>
